@@ -50,3 +50,72 @@
 //   let input = document.querySelector(".input");
 //   input.disabled = false;
 // }
+
+//6
+
+// let square = document.querySelector(".square");
+// function hide() {
+//   if (btn.textContent == "Показать квадрат") {
+//     btn.textContent = "Скрыть Квадрат";
+//   } else {
+//     btn.textContent = "Показать квадрат";
+//   }
+//   square.toggleAttribute("hidden");
+// }
+
+// 7
+
+// let square = document.querySelector(".square");
+// square.addEventListener("mouseover", () => {
+//   square.style.backgroundColor = "green";
+// });
+// square.addEventListener("mouseout", () => {
+//   square.style.backgroundColor = "red";
+// });
+
+// 8
+
+// let squares = document.getElementsByClassName("square");
+
+// con.addEventListener("click", () => {
+//   for (let i = 0; i < squares.length; i++) {
+//     if (event.target == squares[i]) {
+//       for (let i = 0; i < squares.length; i++) {
+//         squares[i].style.backgroundColor = "";
+//       }
+//       event.target.style.backgroundColor = "green";
+//     }
+//   }
+// });
+
+// 9
+
+// let buttons = document.querySelectorAll(".btn");
+
+// function inputer() {
+//   let outValue = output.value;
+//   output.value = `${outValue}` + `${event.target.textContent}`;
+// }
+
+// console.log(buttons);
+
+// for (let i = 0; i < buttons.length; i++) {
+//   buttons[i].addEventListener("click", inputer);
+// }
+
+// res.onclick = () => {
+//   output.value = eval(output.value);
+// };
+
+// let buts = document.querySelectorAll(".btn");
+
+// function input() {
+//   let outValue = inp.value;
+//   inp.value = `${outValue}` + `${event.target.textContent}`;
+// }
+// for (let i = 0; i < buts.length; i++) {
+//   buts[i].addEventListener("click", input);
+// }
+// res.onclick = () => {
+//   inp.value = eval(inp.value);
+// };
