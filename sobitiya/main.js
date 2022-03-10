@@ -90,23 +90,6 @@
 
 // 9
 
-// let buttons = document.querySelectorAll(".btn");
-
-// function inputer() {
-//   let outValue = output.value;
-//   output.value = `${outValue}` + `${event.target.textContent}`;
-// }
-
-// console.log(buttons);
-
-// for (let i = 0; i < buttons.length; i++) {
-//   buttons[i].addEventListener("click", inputer);
-// }
-
-// res.onclick = () => {
-//   output.value = eval(output.value);
-// };
-
 // let buts = document.querySelectorAll(".btn");
 
 // function input() {
